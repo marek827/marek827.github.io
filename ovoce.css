@@ -1,0 +1,20 @@
+nav{font: size 12px;
+    box-sizing: border-box;
+position: relative;}
+  nav li{
+    font-size: 20pt;
+    color:#000000;
+    background-color: rgb(67, 160, 5);
+    /* padding: 60px ;
+    padding-bottom: 1em;
+    margin: 7ex;
+    margin-top: 0;
+    margin-left: 0; */
+    border: solid rgb(255, 80, 217) 30px;
+    border-radius: 12px 33px 7px 18px;
+    display: inline-block;
+    width: 12em;
+    height: 3em;
+    overflow: auto;}
+    
+  body p {margin-left: 30px; margin-bottom: 2px;}

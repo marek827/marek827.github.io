@@ -1,0 +1,84 @@
+* {
+    font-size: 12pt;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin-top: 3.8em;
+    
+}
+nav{
+    font-size: 1.5rem;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+nav li{
+    list-style-type: none;
+    display: block;}
+
+nav li a {display: inline-block;
+    padding: 7px;
+background-color: blueviolet;
+color: rgb(255, 205, 205);
+text-decoration: none;
+border-radius: 7px;
+border: 1px solid black;}
+
+nav li a:hover{
+    background-color: black;
+
+}
+
+
+/* styl pro nadpis */
+
+h1, h2 {
+    font-size: 32pt;
+    color:#098b1d;
+    background-color: rgb(202, 202, 16);
+    /* padding: 60px ;
+    padding-bottom: 1em;
+    margin: 7ex;
+    margin-top: 0;
+    margin-left: 0; */
+    border: solid coral 30px;
+    border-radius: 12px 33px 7px 18px;
+    display: inline-block;
+    width: 12em;
+    height: 3em;
+    overflow: auto;
+}
+
+h2 {
+    border-width: 1px;
+}
+
+hl{
+    position: fixed;
+    right: 30px;
+    opacity: 0.6;
+}
+
+.trida {color: darkmagenta;
+    background-color: lightskyblue;
+
+    #seznam li.trida{padding: 2ex;
+        backround-color: goldenrod}}
+    
+    .posun{
+        position: fixed;
+        margin: 0px;
+        left: 0px;
+        top: 0px;
+        z-index: 100;
+        opacity: 0.5;
+    }
+
+#kolecko{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
